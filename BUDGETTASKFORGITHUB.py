@@ -43,4 +43,7 @@ class Budget():
 food = Budget("food")
 clothing = Budget("clothing") 
 entertainment = Budget("entertainment")
+print(food.deposit(2000))
+print(clothing.deposit(3000))
+print(food.transfer(4000, clothing))
 
